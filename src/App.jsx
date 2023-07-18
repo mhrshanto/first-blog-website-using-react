@@ -2,12 +2,12 @@ import './App.css';
 import CardSectionList from './Section/CradSectionList'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Post from './pages/post'
-import Navigation from './pages/navigation'
+import Header from './pages/header'
 
 function App() {
   return (
     <div className="App">
-      <Navigation></Navigation>
+      <Header></Header>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<CardSectionList></CardSectionList>}></Route>
