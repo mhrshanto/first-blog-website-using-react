@@ -1,0 +1,33 @@
+.App {
+    display: flex;
+    justify-content: center;
+}
+.heading {
+    text-align: center;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.carouselSlider {
+    display: flex;
+    justify-content: center;
+}
+.slider1 {
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ccc;
+    margin: 20px;
+}
+.start-title {
+    text-align: center;
+}
+.post-a {
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}

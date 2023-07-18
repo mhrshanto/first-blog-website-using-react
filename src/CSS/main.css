@@ -1,0 +1,46 @@
+.card {
+    background-color: #ccc;
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.image {
+    height: 60%;
+    width: 100%;
+}
+.card img {
+    height: 100%;
+    width: 100%;
+}
+.content {
+    padding: 0 5px;
+}
+
+/* Card section */
+.main-container {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.conatiner {
+    margin: 10px 50px;
+    max-width: 1140px;
+    width: 100%;
+}
+.conatiner .row-1, .conatiner .row-2 {
+    display: flex;
+    justify-content: center;
+}
+.card-item {
+    width: 25%;
+    padding: 20px;
+}
+.section-title {
+    text-align: center;
+}
+.card-section {
+    margin: 20px 0;
+}
+
+/* Navigation */
